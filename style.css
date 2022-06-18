@@ -1,0 +1,132 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-top: 50px;
+}
+
+.menu {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: gray;
+}
+
+.home {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    ;
+    background-color: bisque
+}
+
+.home h1 {
+    font-family: cursive;
+}
+
+.home p {
+    text-align: center;
+    color: cadetblue;
+}
+
+.home img {
+    border: 5px solid;
+    height: 300px;
+    width: 280px;
+    margin-left: 150px;
+}
+
+.home {
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.home::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.aboutme {
+    background-color: orange;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.aboutme::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.div-clr {
+    clear: both;
+}
+
+.aboutme img {
+    border: 5px solid;
+    border-radius: 50%;
+    height: 300px;
+    width: 280px;
+    margin-left: 150px;
+}
+
+.dotted-hr {
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 60px;
+}
+
+.aboutme p {
+    font-size: 1.5rem
+}
+
+.skills {
+    background-color: indigo;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.skills::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.skills p {
+    text-align: left;
+}
+
+.contact {
+    background-color: blue;
+    padding: 1% 7%;
+    color: white;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact::after {
+    clear: both;
+    display: table;
+    content: '';
+}

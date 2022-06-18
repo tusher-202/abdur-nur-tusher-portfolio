@@ -1,0 +1,52 @@
+body{
+	background-image:url("f.jpg");
+	background-repeat: no-repeat;
+	background-size:1537px 790px;
+	background-position:0% 0%;
+}
+
+.aboutme {
+    background-color: rgb(0, 38, 255);
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.aboutme::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.div-clr {
+    clear: both;
+}
+
+.aboutme img {
+    border: 5px solid;
+    border-radius: 50%;
+    height: 400px;
+    width: 330px;
+    margin-left: 150px;
+}
+
+.dotted-hr {
+    border: dotted 6px white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 60px;
+}
+
+.aboutme p {
+    font-size: 1.5rem
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(yellow, aqua);
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: white;
+    font-weight: 700;
+}

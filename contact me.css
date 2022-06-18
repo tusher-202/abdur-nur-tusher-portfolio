@@ -1,0 +1,28 @@
+.contact {
+    background-color: blue;
+    padding: 1% 7%;
+    color: white;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact::after {
+    clear: both;
+    display: table;
+    content: '';
+}
+body{
+	background-image:url("contact.jpg");
+	background-repeat: no-repeat;
+	background-size:1535px 883px;
+	background-position:0% 0%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 2px 4px;
+    color: white;
+    font-weight: 700;
+
+}

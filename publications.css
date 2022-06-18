@@ -1,0 +1,14 @@
+body{
+	background-image:url("i.png");
+	background-repeat: no-repeat;
+	background-size:1535px 290px;
+	background-position:0% 0%;
+}
+.button{
+	text-decoration: none;
+	border-radius: 5px;
+	background-image: linear-gradient(tomato, orange);
+	color: white;
+	padding: 2px 4px;
+	font-weight: 700;
+}
